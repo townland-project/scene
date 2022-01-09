@@ -1,0 +1,44 @@
+{
+  "name": "@townland-project/scene",
+  "version": "0.0.1",
+  "description": "Townland phaser scene",
+  "main": "public/bundle.js",
+  "scripts": {
+    "serve": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "townland",
+    "scene",
+    "phaser",
+    "boilerplate"
+  ],
+  "author": {
+    "name": "Townland",
+    "url": "https://townland.xyz",
+    "email": "mail@townland.xyz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/townland-project/scene.git"
+  },
+  "homepage": "https://project.townland.xyz/repo/scene",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.4",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1"
+  },
+  "dependencies": {
+    "@townland-project/eventer": "*",
+    "@townland-project/cache": "*",
+    "phaser": "^3.55.2"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ]
+}
